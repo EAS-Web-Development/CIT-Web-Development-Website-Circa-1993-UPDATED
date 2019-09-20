@@ -1,0 +1,96 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 24px;
+  background: url('bg.jpg');
+}
+
+h1 {
+  font-family: Papyrus, fantasy;
+}
+
+h2 {
+  font-family: Papyrus, fantasy;
+  font-size: 48px;
+  background: -webkit-linear-gradient(green, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+blink {
+  animation: blinker 1.2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+footer {
+  font-family: Brush Script MT, cursive;
+  font-size: 34px;
+}
+
+#date {
+  display: inline-block;
+}
+
+.divider {
+  background: -webkit-linear-gradient(orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center {
+  background: -webkit-linear-gradient(purple, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.at {
+  background: -webkit-linear-gradient(yellow, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fh-logo {
+  width: 200px;
+}
+
+.construction {
+  float: left;
+  width: 500px;
+}
+
+.name {
+  position: relative;
+  bottom: 100px;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+.pink {
+  color: pink;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.purple {
+  color: purple;
+}
